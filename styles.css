@@ -1,11 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600&display=swap');
+
 body{
-    color: #BE185D;
+    font-family: 'Baloo Tamma 2', cursive;
 }
 
-#hihi{
-    color: rgb(27, 3, 15);
-}
-
-.mimi{
-    color: indigo;
-}
