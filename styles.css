@@ -1,105 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600&display=swap');
 
-:root{
-    --primary-color:#BE185D;
-    --dark-gray:#6B7280;
+:root {
+    --primary-color: #BE185D;
+    --dark-gray: #6B7280;
+    --off-white:#E5E7EB;
 }
 
-body{
+body {
     font-family: 'Baloo Tamma 2', cursive;
 }
 
-hr{
+hr {
     margin: 1.5rem 0rem;
 }
 
 /** containers **/
-.container{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 600px;
     margin: auto;
 }
 
 /**links**/
-.links{
+.links {
     text-decoration: none;
-    padding:0.5rem 1rem;    /** top->right->bottom->left**/
+    padding: 0.5rem 1rem;
+    /** top->right->bottom->left**/
 }
 
-.links-primary{
+.links-primary {
     background-color: var(--primary-color);
     border-radius: 0.6rem;
-    color:white;
+    color: white;
 
 }
-.links-secondary{
-    
-    border-radius: 0.6rem ;
-    border: 1px solid ;
-   
+
+.links-secondary {
+
+    border-radius: 0.6rem;
+    border: 1px solid;
+
     color: var(--primary-color);
 
 }
 
 /**lists**/
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
 
-.list-item-inline{
+.list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
 }
 
 
 /** navigation**/
-.navigation{
+.navigation {
     background-color: var(--primary-color);
     color: white;
-    padding:0.5rem;
+    padding: 0.5rem;
     border-bottom-left-radius: 1rem;
 }
 
-.navigation .links{
+.navigation .links {
     color: white;
 }
 
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-weight: bold;
 }
 
 
-.navigation .nav-pills{
+.navigation .nav-pills {
     text-align: right;
 }
 
-.navigation .link-active{
+.navigation .link-active {
     font-weight: bold;
 }
 
 
 /**header**/
-.hero{
+.hero {
     padding: 2rem;
 }
 
-.hero .hero-img{
+.hero .hero-img {
     max-width: 400px;
     display: block;
     margin: auto;
 
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
     padding-top: 1rem;
     color: var(--dark-gray);
 }
 
-.hero .hero-heading .heading-inverted{
+.hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
+
+
+/**section**/
+
+.section{
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+}
+
+.off-white-bg{
+    background-color: var(--off-white);
+}
+
