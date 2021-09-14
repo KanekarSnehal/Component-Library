@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Baloo Tamma 2', cursive;
+    margin: 0px;
 }
 
 hr {
@@ -101,6 +102,7 @@ hr {
 .hero .hero-heading {
     padding-top: 1rem;
     color: var(--dark-gray);
+    text-align: center;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -121,3 +123,21 @@ hr {
     background-color: var(--off-white);
 }
 
+
+/**footer**/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1 rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .links{
+    color: white;
+}
+
+
+.footer ul{
+    padding-inline-start: 0px;
+}
