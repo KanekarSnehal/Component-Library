@@ -4,6 +4,11 @@ body{
     font-family: 'Baloo Tamma 2', cursive;
 }
 
+:root{
+    --primary-color:#BE185D;
+}
+
+/** containers **/
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -12,4 +17,25 @@ body{
 .container-center{
     max-width: 600px;
     margin: auto;
+}
+
+/**links**/
+.links{
+    text-decoration: none;
+    padding:0.5rem 1rem;    /** top->right->bottom->left**/
+}
+
+.links-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.6rem;
+    color:white;
+
+}
+.links-secondary{
+    
+    border-radius: 0.6rem ;
+    border: 1px solid ;
+   
+    color: var(--primary-color);
+
 }
