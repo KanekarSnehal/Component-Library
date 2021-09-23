@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 :root {
     --primary-color: #BE185D;
@@ -7,32 +7,35 @@
 }
 
 body {
-    font-family: 'Baloo Tamma 2', cursive;
+    font-family: 'Lato', sans-serif;
     margin: 0px;
+    font-size: large;
 }
 
 hr {
     margin: 1.5rem 0rem;
 }
 
-.margin-md{
-    margin: 2rem;
-}
+
 /** containers **/
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0rem 1rem;
+    margin: auto;
+    
 }
 
 .container-center {
     max-width: 600px;
-    margin: auto;
+   
 }
 
 /**links**/
 .links {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
     /** top->right->bottom->left**/
 }
 
@@ -55,6 +58,8 @@ hr {
 /**lists**/
 .list-non-bullet {
     list-style: none;
+    padding-inline-start: 0px;
+    margin: auto;
 }
 
 .list-item-inline {
@@ -67,7 +72,7 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 0.5rem;
+    padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
 
@@ -78,6 +83,7 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 
@@ -118,6 +124,11 @@ hr {
 
 .section{
     padding: 2rem;
+    display: block;
+    text-align: center;
+   
+    margin: auto;
+    
 }
 .section h1 {
     text-align: center;
